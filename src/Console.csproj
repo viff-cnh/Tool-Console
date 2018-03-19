@@ -44,10 +44,7 @@
     <PackageReference Include="Landis.Extension.Output.BiomassCommunity" Version="1.0.0-CI00000" />
     <PackageReference Include="Landis.Extension.Output.BiomassReclass" Version="1.0.0-CI00000" />
     <PackageReference Include="Landis.Extension.Output.CohortStats" Version="1.0.0-CI00001" />
-  </ItemGroup>
-  <ItemGroup>
-    <!-- <ProjectReference Include="..\core\src\Implementation\Core_Implementation.csproj" /> -->
-    <ProjectReference Include="..\..\landis-core-model\model\ext-dataset\src\Extension_Dataset.csproj" />
+    <PackageReference Include="Landis.Extensions.Dataset" Version="1.0.0-CI00029" />
   </ItemGroup>
   <ItemGroup>
     <None Update="Landis.Console.dll.config">
