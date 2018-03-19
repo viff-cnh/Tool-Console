@@ -46,6 +46,7 @@
     <PackageReference Include="Landis.Extension.Output.CohortStats" Version="1.0.0-CI00001" />
     <PackageReference Include="Landis.Extensions.Dataset" Version="1.0.0-CI00029" />
     <PackageReference Include="Landis.Core" Version="1.0.0-CI00029" />
+    <PackageReference Include="Core_Implementation" Version="1.0.0-CI00029" />
   </ItemGroup>
   <ItemGroup>
     <None Update="Landis.Console.dll.config">
