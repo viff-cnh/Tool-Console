@@ -32,18 +32,6 @@
     <PackageReference Include="Landis.RasterIO" Version="1.0.0-CI00003" />
     <PackageReference Include="Landis.RasterIO.Gdal" Version="1.0.0-CI00003" />
     <PackageReference Include="Landis.Landscapes" Version="1.0.0-CI00003" />
-    <PackageReference Include="Landis.Extension.BaseBDA" Version="1.0.0-CI00003" />
-    <PackageReference Include="Landis.Extension.BaseFire" Version="1.0.0-CI00000" />
-    <PackageReference Include="Landis.Extension.BaseWind" Version="1.0.0-CI00000" />
-    <PackageReference Include="Landis.Extension.BiomassHarvest" Version="1.0.0-CI00000" />
-    <PackageReference Include="Landis.Extension.LinearWind" Version="1.0.0-CI00001" />
-    <PackageReference Include="Landis.Extension.Output.LocalHabitat" Version="1.0.0-CI00000" />
-    <PackageReference Include="Landis.Extension.Succession.NECN_Hydro" Version="1.0.0-CI00000" />
-    <PackageReference Include="Landis.Extension.Output.Biomass" Version="1.0.0-CI00000" />
-    <PackageReference Include="Landis.Extension.Output.BiomassByAge" Version="1.0.0-CI00000" />
-    <PackageReference Include="Landis.Extension.Output.BiomassCommunity" Version="1.0.0-CI00000" />
-    <PackageReference Include="Landis.Extension.Output.BiomassReclass" Version="1.0.0-CI00000" />
-    <PackageReference Include="Landis.Extension.Output.CohortStats" Version="1.0.0-CI00001" />
     <PackageReference Include="Landis.Extensions.Dataset" Version="1.0.0-CI00029" />
     <PackageReference Include="Landis.Core" Version="1.0.0-CI00029" />
   </ItemGroup>
