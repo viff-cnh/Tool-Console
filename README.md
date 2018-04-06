@@ -1,4 +1,8 @@
-# Tool-Console
+# Tool-Console for VIFF
+
+This branch of Tool Console contains the Landis model configuration used in the Visualizing Forest Futures project 
+
+
 
 Changes to this repository are governed by the [**Repository Rules**](https://sites.google.com/site/landismodel/developers) from the Technical Advisory Committee.
 

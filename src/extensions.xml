@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExtensionDataset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Extensions>
+    <Extension Name="NECN_Hydro Succession" Version="0.94">
+      <Type>succession</Type>
+      <Assembly>Landis.Extension.Succession.NECN_Hydro</Assembly>
+      <Class>Landis.Extension.Succession.NECN_Hydro.PlugIn</Class>
+      <Description>Succession with complete Carbon and Nitrogen cycling and hydrology</Description>
+    </Extension>
+    <Extension Name="Output Biomass" Version="2.2.1">
+      <Type>output</Type>
+      <Assembly>Landis.Extension.Output.Biomass</Assembly>
+      <Class>Landis.Extension.Output.Biomass.PlugIn</Class>
+      <Description>Output biomass maps</Description>
+    </Extension>
+    <Extension Name="Output Biomass Community" Version="1.0">
+      <Type>output</Type>
+      <Assembly>Landis.Extension.Output.BiomassCommunity</Assembly>
+      <Class>Landis.Extension.Output.BiomassCommunity.PlugIn</Class>
+      <Description>Output maps of communities with biomass</Description>
+    </Extension>
+    <Extension Name="Output Cohort Statistics" Version="2.2">
+      <Type>output</Type>
+      <Assembly>Landis.Extension.Output.CohortStats</Assembly>
+      <Class>Landis.Extension.Output.CohortStats.PlugIn</Class>
+      <Description>This extension will produce outputs of cohort statistics</Description>
+    </Extension>
+    <Extension Name="Base BDA" Version="3.0.1">
+      <Type>disturbance:BDA</Type>
+      <Assembly>Landis.Extension.BaseBDA</Assembly>
+      <Class>Landis.Extension.BaseBDA.PlugIn</Class>
+      <Description>Biological disturbance agents</Description>
+    </Extension>
+    <Extension Name="Base Wind" Version="2.2">
+      <Type>disturbance:wind</Type>
+      <Assembly>Landis.Extension.BaseWind</Assembly>
+      <Class>Landis.Extension.BaseWind.PlugIn</Class>
+      <Description>Wind Disturbance</Description>
+    </Extension>
+    <Extension Name="Biomass Harvest" Version="3.2">
+      <Type>disturbance:harvest</Type>
+      <Assembly>Landis.Extension.BiomassHarvest</Assembly>
+      <Class>Landis.Extension.BiomassHarvest.PlugIn</Class>
+      <Description>Harvesting for biomass cohorts</Description>
+    </Extension>
+    <Extension Name="Linear Wind" Version="1.0 (official release)">
+      <Type>disturbance:wind</Type>
+      <Assembly>Landis.Extension.LinearWind</Assembly>
+      <Class>Landis.Extension.LinearWind.PlugIn</Class>
+      <Description>Linear wind disturbance</Description>
+      <UserGuide>LANDIS-II Linear Wind v1.0 User Guide.pdf</UserGuide>
+    </Extension>
+    <Extension Name="Local Habitat Output" Version="1.0 (official release)">
+      <Type>output</Type>
+      <Assembly>Landis.Extension.Output.LocalHabitat</Assembly>
+      <Class>Landis.Extension.Output.LocalHabitat.PlugIn</Class>
+      <Description>Local habitat suitability output</Description>
+      <UserGuide>LANDIS-II Local Habitat Output v1.0 User Guide.pdf</UserGuide>
+    </Extension>
+    <Extension Name="Output Biomass-by-Age" Version="2.2.1">
+      <Type>output</Type>
+      <Assembly>Landis.Extension.Output.BiomassByAge</Assembly>
+      <Class>Landis.Extension.Output.BiomassByAge.PlugIn</Class>
+      <Description>Output biomass by ageclass by species</Description>
+    </Extension>
+    <Extension Name="Output Biomass Reclass" Version="2.1">
+      <Type>output</Type>
+      <Assembly>Landis.Extension.Output.BiomassReclass</Assembly>
+      <Class>Landis.Extension.Output.BiomassReclass.PlugIn</Class>
+      <Description>Output forest reclassification maps using biomass</Description>
+    </Extension>
+  </Extensions>
+</ExtensionDataset>

@@ -69,7 +69,12 @@ namespace Landis
                     ci.WriteLine();
                 }
 
-                IExtensionDataset extensions = Landis.Extensions.Dataset.LoadOrCreate();
+                //Use extensions.xml located in the path of the executable
+                string ext_xml_path = string.Format("{0}{1}{2}",
+                                                    Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location),
+                                                    Path.DirectorySeparatorChar, "extensions.xml");
+                
+                IExtensionDataset extensions = Landis.Extensions.Dataset.LoadOrCreate(ext_xml_path);
                 //Pre-pending the GDAL directory is required to run the Console project in debug mode
                 //string path = Environment.GetEnvironmentVariable("PATH");
                 //string newPath = "C:\\Program Files\\LANDIS-II\\GDAL\\1.9;" + path;
