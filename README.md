@@ -17,7 +17,7 @@ git clone https://github.com/viff-cnh/Tool-Console.git
 Navigate to the root of the cloned repository and build the Tool-Console project:
 
 ```Shell
-cd src
+cd Tool-Console/src
 dotnet build -c Release #set to 'Debug' for debug builds
 ```
 
@@ -30,7 +30,7 @@ src/bin/Release/netcoreapp2.0/Landis.Console.dll # change `Release` to 'Debug' f
 Under .NET Core, the executable is run with the dotnet command:
 
 ```Shell
-dotnet Landis.Console.dll
+dotnet Landis.Console.dll scenario.txt
 ```
 
 On Windows 10, Ubuntu, and possibly other recent Linux distribution, the executable can be used out-of-the-box to run different VIFF scenarios (available on [Box](https://psu.box.com/s/u0fhzwf4b663tqxyafhohg3yu6h3g0jx)). On other platforms, [additional steps for GDAL](https://github.com/viff-cnh/docs/blob/master/gdal_build_notes.md) are required before running a scenario.
