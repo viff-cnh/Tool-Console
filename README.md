@@ -27,7 +27,7 @@ Within the root of the cloned repository, the built Tool-Console executable DLL 
 src/bin/Release/netcoreapp2.0/Landis.Console.dll # change `Release` to 'Debug' for debug builds
 ```
 
-Under .NET Core, the executable is run with the dotnet command:
+Under .NET Core, the executable is run with the following dotnet command. Note that this command will be run from within a scenario directory, so the path to the executable DLL must be specified.
 
 ```Shell
 dotnet Landis.Console.dll scenario.txt
