@@ -42,6 +42,7 @@
     <PackageReference Include="Landis.Core" Version="1.0.0-CI00029" />
     <PackageReference Include="Core_Implementation" Version="1.0.0-CI00029" />
     <PackageReference Include="Landis.Extension.Scrapple" Version="1.0.0" />
+    <PackageReference Include="Landis.Extension.BaseHarvest" Version="1.0.0-CI00001" />
   </ItemGroup>
   <ItemGroup>
     <None Update="Landis.Console.dll.config">
