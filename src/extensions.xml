@@ -81,5 +81,11 @@
       <Class>Landis.Extension.Output.BiomassReclass.PlugIn</Class>
       <Description>Output forest reclassification maps using biomass</Description>
     </Extension>
+    <Extension Name="Base Harvest" Version="3.0">
+      <Type>disturbance:harvest</Type>
+      <Assembly>Landis.Extension.BaseHarvest</Assembly>
+      <Class>Landis.Extension.BaseHarvest.PlugIn</Class>
+      <Description>Generic Harvesting for all cohorts</Description>
+    </Extension>
   </Extensions>
 </ExtensionDataset>
