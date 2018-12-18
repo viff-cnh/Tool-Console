@@ -32,7 +32,7 @@
     <PackageReference Include="Landis.Extension.BiomassHarvest" Version="1.0.0-CI00000" />
     <PackageReference Include="Landis.Extension.LinearWind" Version="1.0.0-CI00001" />
     <PackageReference Include="Landis.Extension.Output.LocalHabitat" Version="1.0.0-CI00000" />
-    <PackageReference Include="Landis.Extension.Succession.NECN_Hydro" Version="1.0.0-CI00002" />
+    <PackageReference Include="Landis.Extension.Succession.NECN_Hydro" Version="1.0.0-CI00003" />
     <PackageReference Include="Landis.Extension.Output.Biomass" Version="1.0.0-CI00000" />
     <PackageReference Include="Landis.Extension.Output.BiomassByAge" Version="1.0.0-CI00000" />
     <PackageReference Include="Landis.Extension.Output.BiomassCommunity" Version="1.0.0-CI00000" />
