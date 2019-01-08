@@ -4,6 +4,7 @@
     <RootNamespace>Landis.Console</RootNamespace>
     <AssemblyName>Landis.Console</AssemblyName>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <PublishWithAspNetCoreTargetManifest>false<PublishWithAspNetCoreTargetManifest>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Edu.Wisc.Forest.Flel.Util">
