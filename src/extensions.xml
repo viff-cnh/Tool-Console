@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ExtensionDataset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Extensions>
-    <Extension Name="SCRAPPLE" Version="0.3">
+    <Extension Name="SCRAPPLE" Version="2.0">
       <Type>disturbance:fire</Type>
-      <Assembly>Landis.Extension.Scrapple</Assembly>
+      <Assembly>Landis.Extension.Scrapple-v2</Assembly>
       <Class>Landis.Extension.Scrapple.PlugIn</Class>
-      <Description>Climate and data-driven fire disturbance</Description>
+      <Description>Social and climate fire disturbance</Description>
     </Extension>    
     <Extension Name="Base Fire" Version="3.1">
       <Type>disturbance:fire</Type>
